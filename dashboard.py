@@ -338,7 +338,7 @@ def main() -> None:
     _, center, _ = st.columns([1, 5, 1])
     
     with center:
-        st.title("IRL Demo")
+        st.title("Spiral of Silence IRL Demo")
         st.caption("Load results file, extract trajectories, and analyze opposition states.")
         
         if not RESULTS_DIR.exists():
