@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project specific
+agent.py
+agent_manual.py
+tools.py
+llama_config.py
+try.py
+v0_no_incentive.py
+v1_majority_incentive.py
+v2_opinion_manual.py
+v3_network_manual.py
+plot_reward_heatmaps.py
+*.slurm
+persona_*.csv
+pipeline_section.txt
+dashboard_additions.py
+analysis.ipynb
+paper_visualizations.ipynb
+irl_outputs/
+img/
